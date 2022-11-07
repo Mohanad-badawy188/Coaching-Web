@@ -49,9 +49,9 @@ export const Btn = styled.button`
   border-radius: 20px;
   background-color: transparent;
   border-color: #029837;
-  margin: 0 25px;
   flex-grow: 0;
   cursor: pointer;
+  width:160px;
 `;
 
 function Header() {

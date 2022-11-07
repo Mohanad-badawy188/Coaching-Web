@@ -10,6 +10,7 @@ const RightSide = styled.div`
   justify-content: center;
   flex: 1;
   position: relative;
+  margin-bottom:25px;
 `;
 const CupPic = styled.img`
   position: relative;

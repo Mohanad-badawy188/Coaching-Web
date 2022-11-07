@@ -7,8 +7,21 @@ const LeftSide = styled.div`
   align-items: start;
   flex-direction: column;
   justify-content: center;
+  @media (max-width: 1200px) {
+    align-items: 
+    center;
+    margin-bottom: 60px;
+align-items: center;
+
+  }
 `;
 const Heading = styled.div`
+  @media (max-width: 750px) {
+margin-left: auto;
+margin-right: auto;
+    width: 430px;
+    margin-bottom: 60px;
+  }
   width: 630px;
   height: 130px;
   font-family: "Ubuntu";
@@ -20,6 +33,15 @@ const Heading = styled.div`
 `;
 
 const Text = styled.div`
+  @media (max-width: 750px) {
+    margin-left: auto;
+margin-right: auto;
+width: 430px;
+height: 23px;
+margin-top: 30px;
+margin-bottom: 60px;
+
+}
   width: 625px;
   height: 52px;
   margin: 10px 0px;

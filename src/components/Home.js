@@ -5,15 +5,14 @@ import styled from "styled-components";
 import SectionOneLeftSide from "./homePageSections/SectionOneLeftSide";
 import SectionOneRightSide from "./homePageSections/SectionOneRightSide";
 import SectionTwo from "./homePageSections/SectionTwo";
+import SectionThree from "./homePageSections/SectionThree";
 
 const Container = styled.div`
   @media (max-width: 1200px) {
     height: 1200px;
   }
   @media (max-width: 750px) {
-
     height: 1300px;
-
   }
 
   height: 900px;
@@ -25,7 +24,7 @@ const Wrap = styled.div`
     display: block;
     margin-left: auto;
     margin-right: auto;
-  width: 50%;
+    width: 50%;
   }
 
   display: flex;
@@ -44,6 +43,7 @@ function Home() {
         </Wrap>
       </Container>
       <SectionTwo />
+      <SectionThree />
     </div>
   );
 }

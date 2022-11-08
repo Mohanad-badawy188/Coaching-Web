@@ -15,7 +15,7 @@ align-items: center;
 
   }
 `;
-const Heading = styled.div`
+export const Heading = styled.div`
   @media (max-width: 750px) {
 margin-left: auto;
 margin-right: auto;
@@ -23,7 +23,6 @@ margin-right: auto;
     margin-bottom: 60px;
   }
   width: 630px;
-  height: 130px;
   font-family: "Ubuntu";
   font-style: normal;
   font-weight: 700;
@@ -32,7 +31,7 @@ margin-right: auto;
   color: #000033;
 `;
 
-const Text = styled.div`
+export const Text = styled.div`
   @media (max-width: 750px) {
     margin-left: auto;
 margin-right: auto;

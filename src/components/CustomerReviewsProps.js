@@ -16,6 +16,7 @@ margin: 20px auto;
   flex-direction: column;
   justify-content: space-around;
   margin: 10px;
+  z-index: 1;
 `;
 const CartTopSide = styled.div`
   display: flex;

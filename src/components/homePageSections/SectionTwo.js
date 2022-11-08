@@ -3,6 +3,8 @@ import styled from "styled-components";
 import AfroAmercancafe from "../../pics/afro-amercan-cafe.png";
 import VectorImg from "../../pics/Vector.png";
 import { Btn } from "../Header";
+import Dot from '../../pics/dots.png'
+
 const Container = styled.div`
   height: 798px;
   background: #f7fff6;
@@ -18,11 +20,25 @@ const LeftSide = styled.div`
 
   flex: 1;
   margin-bottom: 25px;
+position: relative;
 `;
 const SectionTwoPic = styled.img`
-  margin: auto;
+ 
   border-radius: 213.53px 0px 218.78px 216px;
+  z-index: 1;
+  width: 518px;
+height: 537px;
+margin-top: 200px;
+margin-left: 120px;
 `;
+const Dots = styled.img`
+position: absolute;
+top:200px;
+left: 125px;
+z-index: 0;
+
+
+ `;
 const RightSide = styled.div`
   display: flex;
   flex: 1;
@@ -99,6 +115,7 @@ function SectionTwo() {
     <Container>
       <LeftSide>
         <SectionTwoPic src={AfroAmercancafe} />
+        <Dots src={Dot}/>
       </LeftSide>
       <RightSide>
         <Header>We offer the best services</Header>

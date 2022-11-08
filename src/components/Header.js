@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../pics/main logo.png";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 const Container = styled.nav`
   background-color: white;
   display: flex;
@@ -24,6 +25,7 @@ const NavUl = styled.ul`
 `;
 const NavItem = styled.li`
   list-style-type: none;
+
 
   padding: 2px 3px;
   color: #000033;
@@ -65,9 +67,16 @@ function Header() {
       </LeftSide>
       <RightSide>
         <NavUl>
+          <Link to="/" style={{ textDecoration: 'none' }}>
+            
           <NavItem>Home</NavItem>
+          </Link>
+          <Link to="/About" style={{ textDecoration: 'none' }}>
           <NavItem>About</NavItem>
+          </Link>
+          <Link to="/Services" style={{ textDecoration: 'none' }}>
           <NavItem>Services</NavItem>
+          </Link>
           <Btn>Contact US</Btn>
         </NavUl>
       </RightSide>

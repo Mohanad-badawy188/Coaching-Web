@@ -1,11 +1,20 @@
 import React from "react";
 import styled from "styled-components";
-import Rectangle from "../../pics/Rectangle.png";
-import ring from "../../pics/ring.png";
-import { Btn } from "../Header";
 import SectionThreeProps from "./SectionThreeProps";
 const Container = styled.div`
   height: 880px;
+  @media (max-width: 1300px) {
+    height: 1850px;
+  }
+  @media (max-width: 800px) {
+    height: 2000px;
+  }
+  @media (max-width: 600px) {
+    height: 2250px;
+  }
+  @media (max-width: 400px) {
+    height: 2800px;
+  }
 `;
 const Heading = styled.div`
   width: 50vw;
@@ -44,7 +53,7 @@ const CartContainer = styled.div`
 
   margin: 100px;
   justify-content: space-around;
-  @media (max-width: 1200px) {
+  @media (max-width: 1300px) {
     display: block;
   }
 `;

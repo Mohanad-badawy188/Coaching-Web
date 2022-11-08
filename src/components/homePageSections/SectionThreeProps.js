@@ -1,12 +1,11 @@
-import React from 'react'
+import React from "react";
 import styled from "styled-components";
 import Rectangle from "../../pics/Rectangle.png";
 import ring from "../../pics/ring.png";
 import { Btn } from "../Header";
 
-
 const Cart = styled.div`
-  margin: 30px 0px;
+  margin: 30px 10px;
   background: #ffffff;
   box-shadow: 0px 10px 25px rgba(0, 0, 51, 0.08);
   border-radius: 20px;
@@ -26,14 +25,12 @@ const Icon = styled.img`
   margin-bottom: 30px;
 `;
 const Ringpic = styled.img`
-width: 31.54px;
-height: 31.54px;
-position: absolute;
-top :60px;
-left:55px;
-
-
-`
+  width: 31.54px;
+  height: 31.54px;
+  position: absolute;
+  top: 60px;
+  left: 55px;
+`;
 const CartHeading = styled.div`
   width: 220px;
   height: 30px;
@@ -47,9 +44,6 @@ const CartHeading = styled.div`
   font-size: 20px;
   line-height: 30px;
 
-  display: flex;
-  align-items: center;
-
   color: #000033;
   margin-bottom: 20px;
 `;
@@ -60,6 +54,11 @@ const CartText = styled.div`
     width: 200px;
     margin-bottom: 20px;
     margin-top: 20px;
+  }
+  @media (max-width: 400px) {
+    width: 120px;
+    margin-top: 60px;
+    margin-bottom: 150px;
   }
 
   font-family: "Ubuntu";
@@ -73,20 +72,19 @@ const CartText = styled.div`
 const CartBtn = styled.div`
   margin-top: 50px;
 `;
+
 function SectionThreeProps(props) {
   return (
     <Cart>
-    <Icon src={Rectangle} />
-    <Ringpic src={ring}/>
-    <CartHeading>{props.heading}</CartHeading>
-    <CartText>
-    {props.desc}
-    </CartText>
-    <CartBtn>
-      <Btn>{props.btn}</Btn>
-    </CartBtn>
-  </Cart>
-  )
+      <Icon src={Rectangle} />
+      <Ringpic src={ring} />
+      <CartHeading>{props.heading}</CartHeading>
+      <CartText>{props.desc}</CartText>
+      <CartBtn>
+        <Btn>{props.btn}</Btn>
+      </CartBtn>
+    </Cart>
+  );
 }
 
-export default SectionThreeProps
+export default SectionThreeProps;

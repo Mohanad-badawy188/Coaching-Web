@@ -6,6 +6,7 @@ const Container = styled.nav`
   display: flex;
   height: 150px;
   padding: 0px 20px;
+  width: 100vw;
   justify-content: space-between;
 `;
 const LeftSide = styled.div`

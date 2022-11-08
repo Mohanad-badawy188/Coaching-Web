@@ -6,6 +6,7 @@ import SectionOneLeftSide from "./homePageSections/SectionOneLeftSide";
 import SectionOneRightSide from "./homePageSections/SectionOneRightSide";
 import SectionTwo from "./homePageSections/SectionTwo";
 import SectionThree from "./homePageSections/SectionThree";
+import SectionFour from "./homePageSections/SectionFour";
 
 const Container = styled.div`
   @media (max-width: 1200px) {
@@ -44,6 +45,7 @@ function Home() {
       </Container>
       <SectionTwo />
       <SectionThree />
+      <SectionFour />
     </div>
   );
 }

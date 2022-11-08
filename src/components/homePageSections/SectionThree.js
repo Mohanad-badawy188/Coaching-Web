@@ -41,6 +41,9 @@ export const Text = styled.div`
   font-size: 16px;
   line-height: 26px;
   width: 80%;
+  @media (max-width: 800px) {
+ width: 100%;
+  }
   justify-content: center;
   margin: 0 auto;
 

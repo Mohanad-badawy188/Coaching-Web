@@ -6,7 +6,7 @@ const Container = styled.nav`
   display: flex;
   height: 150px;
   padding: 0px 20px;
-  width: 100vw;
+
   justify-content: space-between;
 `;
 const LeftSide = styled.div`
@@ -18,11 +18,13 @@ const Logo = styled.img``;
 const NavUl = styled.ul`
   display: flex;
   align-items: center;
+  width: 500px;
+  justify-content: space-around;
   
 `;
 const NavItem = styled.li`
   list-style-type: none;
-  margin: 0px 40px;
+
   padding: 2px 3px;
   color: #000033;
   font-family: "Ubuntu";

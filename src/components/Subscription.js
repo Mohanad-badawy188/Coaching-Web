@@ -4,7 +4,12 @@ import { Btn } from "./homePageSections/SectionOneLeftSide";
 import { Header, Heading } from "./homePageSections/SectionThree";
 const Container = styled.div`
   height: 511px;
+
+  @media (max-width: 800px) {
+    height: 800px;
+  }
 `;
+
 const Text = styled.div`
   font-family: "Ubuntu";
 

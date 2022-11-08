@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Quotation from "../../pics/Quotation.png";
+import Quotation from "../pics/Quotation.png";
 
 const Cart = styled.div`
   @media (max-width: 850px) {
@@ -63,7 +63,7 @@ font-size: 13px;
 line-height: 26px;
 color: rgba(0, 0, 51, 0.95);
 `;
-function SectionFourProps(props) {
+function CustomerReviewsProps(props) {
   return (
     <Cart>
       <CartTopSide>
@@ -81,4 +81,4 @@ function SectionFourProps(props) {
   );
 }
 
-export default SectionFourProps;
+export default CustomerReviewsProps;

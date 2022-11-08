@@ -44,7 +44,7 @@ margin-bottom: 60px;
 }
   width: 625px;
   height: 52px;
-  margin: 10px 0px;
+  margin:35px 0px;
 
   font-family: "Ubuntu";
   font-style: normal;
@@ -55,7 +55,7 @@ margin-bottom: 60px;
   color: #000033;
 `;
 export const Btn = styled.button`
-  margin-top: 30px;
+
   align-items: center;
   padding: 13.676px 20.514px;
   width: 157px;

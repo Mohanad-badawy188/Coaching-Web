@@ -6,7 +6,8 @@ import SectionOneLeftSide from "./homePageSections/SectionOneLeftSide";
 import SectionOneRightSide from "./homePageSections/SectionOneRightSide";
 import SectionTwo from "./homePageSections/SectionTwo";
 import SectionThree from "./homePageSections/SectionThree";
-import SectionFour from "./homePageSections/SectionFour";
+import CustomerReviews from "./CustomerReviews";
+import Subscription from "./Subscription";
 
 const Container = styled.div`
   @media (max-width: 1200px) {
@@ -45,7 +46,8 @@ function Home() {
       </Container>
       <SectionTwo />
       <SectionThree />
-      <SectionFour />
+      <CustomerReviews />
+      <Subscription />
     </div>
   );
 }

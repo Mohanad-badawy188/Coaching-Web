@@ -16,12 +16,12 @@ const Container = styled.div`
     height: 2800px;
   }
 `;
-const Heading = styled.div`
+export const Heading = styled.div`
   width: 50vw;
   margin-left: auto;
   margin-right: auto;
 `;
-const Header = styled.div`
+ export const Header = styled.div`
   font-family: "Ubuntu";
   font-style: normal;
   font-weight: 700;
@@ -34,7 +34,7 @@ const Header = styled.div`
   width: 70%;
   margin: 120px auto 40px auto;
 `;
-const Text = styled.div`
+export const Text = styled.div`
   font-family: "Ubuntu";
   font-style: normal;
   font-weight: 300;

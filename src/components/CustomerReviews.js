@@ -7,12 +7,15 @@ import ThirdUser from "../pics/ThirdUser.png";
 import { Header, Heading } from "./homePageSections/SectionThree";
 import Dot from '../pics/dots.png'
 
-const Container = styled.div`
+export const Container = styled.div`
   height: 663px;
   background: #f7fff6;
   padding-top: 10px;
-  @media (max-width: 850px) {
-    height: 1350px;
+  @media (max-width: 1440px) {
+    height: 1050px;
+  }
+  @media (max-width: 950px) {
+    height: 1550px;
   }
   position: relative;
   overflow: hidden;
@@ -23,18 +26,19 @@ const Container = styled.div`
     display: block;
   }
   display: flex;
+  flex-wrap: wrap;
   margin: 75px 0px;
   justify-content: space-around;
 
 `;
-const DotsTopRight = styled.img`
+export const DotsTopRight = styled.img`
 position: absolute;
 top: -210px;
 right: -60px;
 z-index: 0;
 
   ` ;
-const DotsBottomLeft = styled.img`
+export const DotsBottomLeft = styled.img`
 position: absolute;
 bottom: -210px;
 left: -60px;

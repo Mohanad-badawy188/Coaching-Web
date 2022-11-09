@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-const Container = styled.div`
+export const Container = styled.div`
 height: 500px;
 background:  ${props => props.backGroundColor };
 @media (max-width: 800px) {
@@ -12,7 +12,7 @@ background:  ${props => props.backGroundColor };
 
   }
 `
-const Header = styled.div`
+export const Header = styled.div`
 width: 50%;
 margin: auto;
 padding-top: 130px;

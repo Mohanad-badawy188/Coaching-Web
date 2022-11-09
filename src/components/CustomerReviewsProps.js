@@ -4,11 +4,12 @@ import Quotation from "../pics/Quotation.png";
 
 export const Cart = styled.div`
   @media (max-width: 850px) {
-margin: 20px auto;
+    margin: 20px auto;
   }
   @media (max-width: 500px) {
-    width:200px;
+    width: 200px;
   }
+
   width: 380px;
   height: 200px;
   background: #ffffff;
@@ -18,7 +19,7 @@ margin: 20px auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin: 10px;
+  margin: 30px 10px ;
   z-index: 1;
 `;
 const CartTopSide = styled.div`
@@ -61,11 +62,11 @@ const CartTopRight = styled.img`
 `;
 
 const CartBotSide = styled.div`
-font-family: 'Ubuntu';
-font-weight: 300;
-font-size: 13px;
-line-height: 26px;
-color: rgba(0, 0, 51, 0.95);
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 26px;
+  color: rgba(0, 0, 51, 0.95);
 `;
 function CustomerReviewsProps(props) {
   return (

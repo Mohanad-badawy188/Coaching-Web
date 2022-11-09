@@ -31,8 +31,10 @@ export const Wrap = styled.div`
   }
 
   display: flex;
+
+  justify-content: space-between;
   height: 100%;
-  margin: 0 60px;
+  margin: 0 80px;
 `;
 
 function Home() {

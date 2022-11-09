@@ -8,13 +8,13 @@ import Dot from '../../pics/dots.png'
   align-items: start;
   flex-direction: column;
   justify-content: center;
-  flex: 1;
   position: relative;
   margin-bottom: 25px;
 `;
 export const CupPic = styled.img`
   position: relative;
-
+  display: flex;
+flex-wrap: wrap;
   filter: drop-shadow(0px 11.1346px 18.5576px rgba(2, 147, 52, 0.05));
   border-radius: 213.531px 0px 218.785px 216px;
 `;

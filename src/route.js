@@ -10,6 +10,7 @@ import {
 import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Services from "./components/Services";
+import Webinar from "./components/Webinar";
 const router = createBrowserRouter([
     {
       path: "/",
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
     {
       path: "/services",
       element: <Services />,
+    }, 
+    {
+      path: "/Webinar",
+      element: <Webinar />,
     }, 
 
 ]);

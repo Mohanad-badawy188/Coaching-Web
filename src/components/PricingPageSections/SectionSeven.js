@@ -5,6 +5,7 @@ import { Header } from "./SectionThree";
 import N from "../../pics/N.png";
 import dot from "../../pics/dot.png";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
   height: 1400px;
@@ -111,7 +112,9 @@ function SectionSeven() {
           </Item>
         </Items>
         <BTN>
+            <Link to ={"/ThankYou"}>
           <Btn style={{ width: "230px" }}>Choose Plan</Btn>
+          </Link>
         </BTN>
       </Cart>
     );

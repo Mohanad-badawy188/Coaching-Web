@@ -12,6 +12,7 @@ import Contact from "./components/Contact";
 import Services from "./components/Services";
 import Webinar from "./components/Webinar";
 import Pricing from "./components/Pricing";
+import ThankYou from "./components/ThankYou";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
   {
     path: "/Pricing",
     element: <Pricing />,
+  },
+  {
+    path: "/ThankYou",
+    element: <ThankYou />,
   },
 ]);
 

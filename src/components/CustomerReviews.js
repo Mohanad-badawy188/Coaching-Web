@@ -18,7 +18,7 @@ const Container = styled.div`
   overflow: hidden;
 `;
 
-const CartContainer = styled.div`
+ export const CartContainer = styled.div`
   @media (max-width: 850px) {
     display: block;
   }

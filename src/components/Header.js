@@ -10,8 +10,7 @@ const Container = styled.nav`
 
   justify-content: space-between;
 `;
-const LeftSide = styled.div`
-`;
+const LeftSide = styled.div``;
 const RightSide = styled.div`
   display: flex;
 `;
@@ -19,13 +18,11 @@ const Logo = styled.img``;
 const NavUl = styled.ul`
   display: flex;
   align-items: center;
-  width: 500px;
+  width: 600px;
   justify-content: space-around;
-  
 `;
 const NavItem = styled.li`
   list-style-type: none;
-
 
   padding: 2px 3px;
   color: #000033;
@@ -56,7 +53,14 @@ export const Btn = styled.button`
   border-color: #029837;
   flex-grow: 0;
   cursor: pointer;
-  width:160px;
+  width: 160px;
+
+  &:hover{
+    background-color:rgba(2, 152, 55, 1);
+    color:white;
+    border: none;
+
+  }
 `;
 
 function Header() {
@@ -67,17 +71,24 @@ function Header() {
       </LeftSide>
       <RightSide>
         <NavUl>
-          <Link to="/" style={{ textDecoration: 'none' }}>
-            
-          <NavItem>Home</NavItem>
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <NavItem>Home</NavItem>
           </Link>
-          <Link to="/About" style={{ textDecoration: 'none' }}>
-          <NavItem>About</NavItem>
+          <Link to="/About" style={{ textDecoration: "none" }}>
+            <NavItem>About</NavItem>
           </Link>
-          <Link to="/Services" style={{ textDecoration: 'none' }}>
-          <NavItem>Services</NavItem>
+          <Link to="/Services" style={{ textDecoration: "none" }}>
+            <NavItem>Services</NavItem>
           </Link>
-          <Btn>Contact US</Btn>
+          <Link to="/pricing" style={{ textDecoration: "none" }}>
+            <NavItem>Pricing</NavItem>
+          </Link>
+          <Link to="/webinar" style={{ textDecoration: "none" }}>
+            <NavItem>Webinar</NavItem>
+          </Link>
+          <Link to="/Contact" style={{ textDecoration: "none" }}>
+            <Btn>Contact US</Btn>
+          </Link>
         </NavUl>
       </RightSide>
     </Container>

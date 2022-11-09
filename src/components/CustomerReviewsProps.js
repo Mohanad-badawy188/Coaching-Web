@@ -2,9 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import Quotation from "../pics/Quotation.png";
 
-const Cart = styled.div`
+export const Cart = styled.div`
   @media (max-width: 850px) {
 margin: 20px auto;
+  }
+  @media (max-width: 500px) {
+    width:200px;
   }
   width: 380px;
   height: 200px;

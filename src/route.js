@@ -5,8 +5,10 @@ import {
     RouterProvider,
     Route,
     Navigate,
-  } from "react-router-dom";import About from "./components/About";
+  } from "react-router-dom";
+  import About from "./components/About";
 import Home from "./components/Home";
+import Contact from "./components/Contact";
 const router = createBrowserRouter([
     {
       path: "/",
@@ -15,6 +17,10 @@ const router = createBrowserRouter([
     {
       path: "/about",
       element: <About />,
+    }, 
+    {
+      path: "/contact",
+      element: <Contact />,
     }, 
 
 ]);

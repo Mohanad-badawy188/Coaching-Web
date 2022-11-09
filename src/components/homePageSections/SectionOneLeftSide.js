@@ -73,6 +73,15 @@ export const Btn = styled.button`
   cursor: pointer;
   order: 0;
   flex-grow: 0;
+
+  &:hover{
+background-color: transparent;
+border-color: #029837;
+color: #029837;
+
+border: 2px solid #029837;
+
+  }
 `;
 function SectionOneLeftSide() {
   return (

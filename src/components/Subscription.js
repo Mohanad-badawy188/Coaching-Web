@@ -28,7 +28,7 @@ const SubscribeContainer = styled.div`
   align-items: center;
   justify-content: center;
 `;
-const EmailInput = styled.input`
+export const Input = styled.input`
   padding: 13.676px 30px;
   width: 400px;
   background: #f2f1f1;
@@ -64,7 +64,7 @@ function Subscription() {
         </Text>
       </Heading>
       <SubscribeContainer>
-        <EmailInput placeholder="Enter your email address" />
+        <Input placeholder="Enter your email address" />
         <Btn>Subscribe</Btn>
       </SubscribeContainer>
     </Container>

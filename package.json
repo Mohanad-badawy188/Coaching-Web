@@ -1,4 +1,4 @@
-{
+{"homepage": "http://Mohanad-badawy188.github.io/Coaching-Web",
   "name": "coaching-web",
   "version": "0.1.0",
   "private": true,
@@ -11,12 +11,15 @@
     "styled-components": "^5.3.6"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "react-router-dom": "^6.4.3"
   },
   "browserslist": {
@@ -30,9 +33,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "engines": {
-    "node": "v16.18.1",
-    "npm": "8.19.2"
   }
 }

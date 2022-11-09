@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Quotation from "../pics/Quotation.png";
+import PropTypes from 'prop-types'
 
 export const Cart = styled.div`
   @media (max-width: 850px) {
@@ -19,7 +20,7 @@ export const Cart = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin: 30px 10px ;
+  margin: 30px 10px;
   z-index: 1;
 `;
 const CartTopSide = styled.div`
@@ -85,5 +86,10 @@ function CustomerReviewsProps(props) {
     </Cart>
   );
 }
-
+CustomerReviewsProps.propTypes = {
+  name: PropTypes.string.isRequired,
+  country: PropTypes.string,
+  review: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired,
+};
 export default CustomerReviewsProps;

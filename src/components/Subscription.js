@@ -37,20 +37,18 @@ export const Input = styled.input`
   border: none;
   height: 27px;
 
-
-
   color: rgba(107, 114, 128, 0.4);
-  ::placeholder { 
+  ::placeholder {
     height: 27px;
 
-    font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 300;
-font-size: 13px;
-line-height: 26px;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 26px;
 
-color: rgba(107, 114, 128, 0.4);
-}
+    color: rgba(107, 114, 128, 0.4);
+  }
 `;
 
 function Subscription() {

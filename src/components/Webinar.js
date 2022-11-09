@@ -34,7 +34,16 @@ function Webinar() {
       </Container>
       <SectionTwo />
       <SectionThree />
-      <SectionFour />
+      <SectionFour
+        backGroundColor={"#F7FFF6"}
+        header={
+          <div>
+            More Reasons
+            <br />
+            To Join My Webinar{" "}
+          </div>
+        }
+      />
       <SectionFive />
       <Footer />
     </div>

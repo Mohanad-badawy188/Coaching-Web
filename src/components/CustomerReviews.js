@@ -5,7 +5,7 @@ import FirstUser from "../pics/FirstUser.png";
 import SecondUser from "../pics/SecondUser.png";
 import ThirdUser from "../pics/ThirdUser.png";
 import { Header, Heading } from "./homePageSections/SectionThree";
-import Dot from '../pics/dots.png'
+import Dot from "../pics/dots.png";
 
 export const Container = styled.div`
   height: 663px;
@@ -21,7 +21,7 @@ export const Container = styled.div`
   overflow: hidden;
 `;
 
- export const CartContainer = styled.div`
+export const CartContainer = styled.div`
   @media (max-width: 850px) {
     display: block;
   }
@@ -29,30 +29,25 @@ export const Container = styled.div`
   flex-wrap: wrap;
   margin: 75px 0px;
   justify-content: space-around;
-
 `;
 export const DotsTopRight = styled.img`
-position: absolute;
-top: -210px;
-right: -60px;
-z-index: 0;
-
-  ` ;
+  position: absolute;
+  top: -210px;
+  right: -60px;
+  z-index: 0;
+`;
 export const DotsBottomLeft = styled.img`
-position: absolute;
-bottom: -210px;
-left: -60px;
-z-index: 0;
-
-  ` ;
-
-
+  position: absolute;
+  bottom: -210px;
+  left: -60px;
+  z-index: 0;
+`;
 
 function CustomerReviews() {
   return (
     <Container>
-      <DotsTopRight src={Dot}/>
-      <DotsBottomLeft src={Dot}/>
+      <DotsTopRight src={Dot} />
+      <DotsBottomLeft src={Dot} />
       <Heading>
         <Header>What our customers say about us</Header>
       </Heading>

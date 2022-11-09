@@ -6,9 +6,13 @@ import {
   LeftSide,
   Text,
 } from "../homePageSections/SectionOneLeftSide";
-import { CupPic, Dots, RightSide } from "../homePageSections/SectionOneRightSide";
-import Img from '../../pics/happy-couple-looking-laptop.png'
-import Dot from '../../pics/dots.png'
+import {
+  CupPic,
+  Dots,
+  RightSide,
+} from "../homePageSections/SectionOneRightSide";
+import Img from "../../pics/happy-couple-looking-laptop.png";
+import Dot from "../../pics/dots.png";
 
 function FirstSection() {
   return (

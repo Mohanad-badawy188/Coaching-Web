@@ -7,30 +7,25 @@ export const LeftSide = styled.div`
   flex-direction: column;
   justify-content: center;
   @media (max-width: 1200px) {
-    align-items: 
-    center;
+    align-items: center;
     margin-bottom: 120px;
-align-items: center;
-
+    align-items: center;
   }
   @media (max-width: 750px) {
-
     margin-bottom: 180px;
-align-items: center;
-
+    align-items: center;
   }
 `;
 export const Heading = styled.div`
   @media (max-width: 750px) {
-margin-left: auto;
-margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 430px;
     margin-bottom: 60px;
   }
   @media (max-width: 1200px) {
-margin-left: auto;
-margin-right: auto;
-  
+    margin-left: auto;
+    margin-right: auto;
   }
   width: 630px;
   font-family: "Ubuntu";
@@ -44,16 +39,15 @@ margin-right: auto;
 export const Text = styled.div`
   @media (max-width: 750px) {
     margin-left: auto;
-margin-right: auto;
-width: 430px;
-height: 23px;
-margin-top: 30px;
-margin-bottom: 60px;
-
-}
+    margin-right: auto;
+    width: 430px;
+    height: 23px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
   width: 625px;
   height: 52px;
-  margin:35px 0px;
+  margin: 35px 0px;
 
   font-family: "Ubuntu";
   font-style: normal;
@@ -64,7 +58,6 @@ margin-bottom: 60px;
   color: #000033;
 `;
 export const Btn = styled.button`
-
   align-items: center;
   padding: 13.676px 20.514px;
   width: 157px;
@@ -84,13 +77,12 @@ export const Btn = styled.button`
   order: 0;
   flex-grow: 0;
 
-  &:hover{
-background-color: transparent;
-border-color: #029837;
-color: #029837;
+  &:hover {
+    background-color: transparent;
+    border-color: #029837;
+    color: #029837;
 
-border: 2px solid #029837;
-
+    border: 2px solid #029837;
   }
 `;
 function SectionOneLeftSide() {

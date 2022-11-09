@@ -3,7 +3,7 @@ import styled from "styled-components";
 import AfroAmercancafe from "../../pics/afro-amercan-cafe.png";
 import VectorImg from "../../pics/Vector.png";
 import { Btn } from "../Header";
-import Dot from '../../pics/dots.png'
+import Dot from "../../pics/dots.png";
 
 export const Container = styled.div`
   height: 798px;
@@ -19,37 +19,34 @@ export const Container = styled.div`
     height: 1700px;
   }
 `;
- export const LeftSide = styled.div`
+export const LeftSide = styled.div`
   display: flex;
 
   flex: 1;
   margin-bottom: 25px;
-position: relative;
+  position: relative;
 `;
 export const SectionTwoPic = styled.img`
- 
   border-radius: 213.53px 0px 218.78px 216px;
   z-index: 1;
   width: 518px;
-height: 537px;
-margin-top: 200px;
-margin-left: 120px;
+  height: 537px;
+  margin-top: 200px;
+  margin-left: 120px;
 `;
 export const Dots = styled.img`
-position: absolute;
-top:200px;
-left: 125px;
-z-index: 0;
-
-
- `;
+  position: absolute;
+  top: 200px;
+  left: 125px;
+  z-index: 0;
+`;
 export const RightSide = styled.div`
   display: flex;
   flex: 1;
   flex-direction: column;
   margin-top: 200px;
 `;
- export const Header = styled.div`
+export const Header = styled.div`
   @media (max-width: 1200px) {
     text-align: center;
     margin-left: auto;
@@ -119,7 +116,7 @@ function SectionTwo() {
     <Container>
       <LeftSide>
         <SectionTwoPic src={AfroAmercancafe} />
-        <Dots src={Dot}/>
+        <Dots src={Dot} />
       </LeftSide>
       <RightSide>
         <Header>We offer the best services</Header>

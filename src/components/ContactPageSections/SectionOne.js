@@ -7,7 +7,7 @@ import { Input } from "../Subscription";
 const Container = styled.div`
   height: 1000px;
   @media (max-width: 550px) {
-    height:1200px;
+    height: 1200px;
   }
 `;
 const Header = styled.div`
@@ -79,9 +79,15 @@ function SectionOne() {
         </FormItem>
         <FormItem>
           {" "}
-          <Note placeholder="Write a note about your request" rows="15" cols="47" />
+          <Note
+            placeholder="Write a note about your request"
+            rows="15"
+            cols="47"
+          />
         </FormItem>
-        <FormItem><Btn style={{width:"450px"}}>Send</Btn> </FormItem>
+        <FormItem>
+          <Btn style={{ width: "450px" }}>Send</Btn>{" "}
+        </FormItem>
       </Form>
     </Container>
   );

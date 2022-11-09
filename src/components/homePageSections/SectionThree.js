@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import SectionThreeProps from "./SectionThreeProps";
-const Container = styled.div`
+export const Container = styled.div`
   height: 880px;
   @media (max-width: 1300px) {
     height: 1850px;
@@ -21,7 +21,7 @@ export const Heading = styled.div`
   margin-left: auto;
   margin-right: auto;
 `;
- export const Header = styled.div`
+export const Header = styled.div`
   font-family: "Ubuntu";
   font-style: normal;
   font-weight: 700;
@@ -42,7 +42,7 @@ export const Text = styled.div`
   line-height: 26px;
   width: 80%;
   @media (max-width: 800px) {
- width: 100%;
+    width: 100%;
   }
   justify-content: center;
   margin: 0 auto;
@@ -51,7 +51,7 @@ export const Text = styled.div`
 
   color: rgba(0, 0, 51, 0.95);
 `;
-const CartContainer = styled.div`
+export const CartContainer = styled.div`
   display: flex;
 
   margin: 100px;

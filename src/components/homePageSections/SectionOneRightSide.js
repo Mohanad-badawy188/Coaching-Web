@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import CupPhoto from "../../pics/cuppic.png";
 import Ellipse from "../../pics/Ellipse.png";
-import Dot from '../../pics/dots.png'
- export const RightSide = styled.div`
+import Dot from "../../pics/dots.png";
+export const RightSide = styled.div`
   display: flex;
   align-items: start;
   flex-direction: column;
@@ -14,20 +14,20 @@ import Dot from '../../pics/dots.png'
 export const CupPic = styled.img`
   position: relative;
   display: flex;
-flex-wrap: wrap;
+  flex-wrap: wrap;
+  z-index: 1;
   filter: drop-shadow(0px 11.1346px 18.5576px rgba(2, 147, 52, 0.05));
   border-radius: 213.531px 0px 218.785px 216px;
 `;
 export const Dots = styled.img`
-position: absolute;
-top:170px;
-left: 20px;
-z-index: -1;
-@media (max-width: 1200px) {
-  top:20px;
+  position: absolute;
+  top: 170px;
+  left: 20px;
+  z-index: -1;
+  @media (max-width: 1200px) {
+    top: 20px;
   }
-
-`
+`;
 const SucResult = styled.div`
   position: absolute;
   box-shadow: 0px 10px 25px rgba(2, 147, 52, 0.1);
@@ -74,7 +74,7 @@ function SectionOneRightSide() {
     <RightSide>
       <CupPic src={CupPhoto} />
 
-          <Dots src={Dot}/>
+      <Dots src={Dot} />
       <SucResult>
         <LeftSideNote>
           <CircleImg src={Ellipse} />

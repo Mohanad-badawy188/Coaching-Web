@@ -55,11 +55,10 @@ export const Btn = styled.button`
   cursor: pointer;
   width: 160px;
 
-  &:hover{
-    background-color:rgba(2, 152, 55, 1);
-    color:white;
+  &:hover {
+    background-color: rgba(2, 152, 55, 1);
+    color: white;
     border: none;
-
   }
 `;
 

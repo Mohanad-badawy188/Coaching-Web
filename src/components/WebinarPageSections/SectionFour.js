@@ -14,7 +14,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   height: 1100px;
-  background: #f7fff6;
+  background: ${(props) => props.backGroundColor};
   padding-top: 10px;
   @media (max-width: 1450px) {
     height: 1350px;
@@ -26,17 +26,13 @@ const Container = styled.div`
   position: relative;
   overflow: hidden;
 `;
-function SectionFour() {
+function SectionFour(props) {
   return (
-    <Container>
+    <Container backGroundColor={props.backGroundColor}>
       <DotsTopRight src={Dot} />
       <DotsBottomLeft src={Dot} />
       <Heading>
-        <Header>
-          More Reasons
-          <br />
-          To Join My Webinar
-        </Header>
+        <Header>{props.header}</Header>
       </Heading>
       <CartContainer>
         <CustomerReviewsProps

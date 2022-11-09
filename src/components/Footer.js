@@ -66,17 +66,17 @@ const LeftSide = styled.div`
   flex-direction: column;
   height: 165px;
   justify-content: space-between;
-  margin-top:45px;
+  margin-top: 45px;
 `;
 const RightSide = styled.div`
   display: flex;
   flex-direction: column;
   height: 165px;
   justify-content: space-between;
-  margin-top:45px;
+  margin-top: 45px;
 `;
 const Item = styled.div`
-cursor: pointer;
+  cursor: pointer;
   font-family: "Mulish";
   font-weight: 400;
   font-size: 16px;
@@ -129,6 +129,18 @@ const Icon = styled.img`
     font-weight: 600;
   }
 `;
+const CopyRights = styled.div`
+  margin-top: 100px;
+  justify-content: center;
+  font-family: "Mulish";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+
+  display: flex;
+
+  color: #ffffff;
+`;
 
 function Footer() {
   return (
@@ -149,8 +161,7 @@ function Footer() {
           <RightSide>
             <Item>Services</Item>
             <Item>Contact</Item>
-            <Item>Privacy Policy</Item> 
-          
+            <Item>Privacy Policy</Item>
           </RightSide>
         </SecondPart>
         <ThirdPart>
@@ -163,6 +174,9 @@ function Footer() {
           </Icons>
         </ThirdPart>
       </Wrap>
+      <CopyRights>
+        © Jo-Jean Imoh-Ita. All right reserved. Designed by AMANi Art
+      </CopyRights>
     </Container>
   );
 }

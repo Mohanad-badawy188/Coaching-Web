@@ -1,60 +1,32 @@
 import React from "react";
 import styled from "styled-components";
+import { Dots, LeftSide, Wrap } from "../AboutPageSectins/FirstSection";
 import { Heading, Text } from "../homePageSections/SectionOneLeftSide";
 import { CupPic, RightSide } from "../homePageSections/SectionOneRightSide";
-import CupPhoto from "../../pics/cuppic.png";
 import Dot from "../../pics/dots.png";
+import CupPhoto from "../../pics/cuppic.png";
 
 const Container = styled.div`
-  height: 650px;
+  background: #f7fff6;
+  height: 1000px;
+  padding-top: 100px;
   @media (max-width: 1200px) {
     height: 1400px;
   }
 `;
-export const Wrap = styled.div`
-  display: flex;
-  justify-content: space-between;
-  margin: 55px;
-  @media (max-width: 1200px) {
-    text-align: center;
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-`;
-export const LeftSide = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  @media (max-width: 1200px) {
-    margin-bottom: 100px;
-    height: 700px;
-    justify-content: space-between;
-  }
-`;
-export const Dots = styled.img`
-  position: absolute;
-  top: 10px;
-  left: 20px;
-  z-index: 0;
-  @media (max-width: 1200px) {
-    top: 20px;
-  }
-`;
-function FirstSection() {
+function FourthSection() {
   return (
     <Container>
       <Wrap>
         <LeftSide>
-          <Heading> Jean Joe - FOUNDER</Heading>
+          <Heading>Why I help Relationships & Marriages</Heading>
           <Text>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
             consectetur justo quis euismod vehicula. Quisque diam dui, imperdiet
-            et hendrerit in, accumsan tempus erat.
+            et hendrerit in, accumsan tempus erat.{" "}
           </Text>
           <Text>
+            {" "}
             Nullam ornare blandit urna, eu pulvinar elit faucibus eget. Sed
             justo mauris, ultricies eu urna at, gravida commodo mauris. Quisque
             ac felis ac sapien dictum gravida aliquet ac purus. Donec sit amet
@@ -62,6 +34,7 @@ function FirstSection() {
             nisi, molestie lacinia ex rhoncus vel.
           </Text>
           <Text>
+            {" "}
             Nullam ornare blandit urna, eu pulvinar elit faucibus eget. Sed
             justo mauris, ultricies eu urna at, gravida commodo mauris. Quisque
             ac felis ac sapien dictum gravida aliquet ac purus. Donec sit amet
@@ -78,4 +51,4 @@ function FirstSection() {
   );
 }
 
-export default FirstSection;
+export default FourthSection;

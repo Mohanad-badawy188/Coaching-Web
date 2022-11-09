@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const LeftSide = styled.div`
+export const LeftSide = styled.div`
   flex: 1;
   display: flex;
   align-items: start;
@@ -10,7 +10,13 @@ const LeftSide = styled.div`
   @media (max-width: 1200px) {
     align-items: 
     center;
-    margin-bottom: 60px;
+    margin-bottom: 120px;
+align-items: center;
+
+  }
+  @media (max-width: 750px) {
+
+    margin-bottom: 180px;
 align-items: center;
 
   }
@@ -21,6 +27,11 @@ margin-left: auto;
 margin-right: auto;
     width: 430px;
     margin-bottom: 60px;
+  }
+  @media (max-width: 1200px) {
+margin-left: auto;
+margin-right: auto;
+  
   }
   width: 630px;
   font-family: "Ubuntu";

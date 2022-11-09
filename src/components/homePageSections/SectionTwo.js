@@ -5,24 +5,28 @@ import VectorImg from "../../pics/Vector.png";
 import { Btn } from "../Header";
 import Dot from '../../pics/dots.png'
 
-const Container = styled.div`
+export const Container = styled.div`
   height: 798px;
   background: #f7fff6;
   display: flex;
 
   @media (max-width: 1200px) {
     display: block;
-    height: 1200px;
+    height: 1400px;
+  }
+  @media (max-width: 750px) {
+    display: block;
+    height: 1700px;
   }
 `;
-const LeftSide = styled.div`
+ export const LeftSide = styled.div`
   display: flex;
 
   flex: 1;
   margin-bottom: 25px;
 position: relative;
 `;
-const SectionTwoPic = styled.img`
+export const SectionTwoPic = styled.img`
  
   border-radius: 213.53px 0px 218.78px 216px;
   z-index: 1;
@@ -31,7 +35,7 @@ height: 537px;
 margin-top: 200px;
 margin-left: 120px;
 `;
-const Dots = styled.img`
+export const Dots = styled.img`
 position: absolute;
 top:200px;
 left: 125px;
@@ -39,13 +43,13 @@ z-index: 0;
 
 
  `;
-const RightSide = styled.div`
+export const RightSide = styled.div`
   display: flex;
   flex: 1;
   flex-direction: column;
   margin-top: 200px;
 `;
-const Header = styled.div`
+ export const Header = styled.div`
   @media (max-width: 1200px) {
     text-align: center;
     margin-left: auto;
@@ -58,7 +62,7 @@ const Header = styled.div`
 
   color: #000033;
 `;
-const Texts = styled.div`
+export const Texts = styled.div`
   @media (max-width: 1200px) {
     text-align: center;
     margin-left: auto;

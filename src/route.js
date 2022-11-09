@@ -9,6 +9,7 @@ import {
   import About from "./components/About";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
+import Services from "./components/Services";
 const router = createBrowserRouter([
     {
       path: "/",
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
     {
       path: "/contact",
       element: <Contact />,
+    }, 
+    {
+      path: "/services",
+      element: <Services />,
     }, 
 
 ]);

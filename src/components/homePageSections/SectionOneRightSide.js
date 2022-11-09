@@ -18,7 +18,7 @@ export const CupPic = styled.img`
   filter: drop-shadow(0px 11.1346px 18.5576px rgba(2, 147, 52, 0.05));
   border-radius: 213.531px 0px 218.785px 216px;
 `;
-const Dots = styled.img`
+export const Dots = styled.img`
 position: absolute;
 top:170px;
 left: 20px;

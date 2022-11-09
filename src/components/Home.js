@@ -10,17 +10,17 @@ import CustomerReviews from "./CustomerReviews";
 import Subscription from "./Subscription";
 import Footer from "./Footer";
 
-const Container = styled.div`
+export const Container = styled.div`
   @media (max-width: 1200px) {
-    height: 1200px;
+    height: 1300px;
   }
   @media (max-width: 750px) {
-    height: 1300px;
+    height: 1500px;
   }
 
   height: 900px;
 `;
-const Wrap = styled.div`
+export const Wrap = styled.div`
   @media (max-width: 1200px) {
     text-align: center;
 

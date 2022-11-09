@@ -12,7 +12,7 @@ function About() {
       <Header />
 
       <FirstSection />
-      <SecondSection />
+      <SecondSection backGroundColor ="#F7FFF6"/>
       <Subscription />
       <Footer />
     </div>

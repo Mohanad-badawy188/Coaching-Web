@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 const Container = styled.div`
 height: 500px;
-background: #F7FFF6;
+background:  ${props => props.backGroundColor };
 @media (max-width: 800px) {
     height: 700px;
 
@@ -51,9 +51,9 @@ const Btn = styled.button`
 
 `;
 
-function SecondSection() {
+function SecondSection(props) {
   return (
-   <Container >
+   <Container backGroundColor={props.backGroundColor} >
 <Header> Are you ready to transfrom your Marriage and 
 Relationship Book a  session with us</Header>
 <BtnContainer>

@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Btn } from "./homePageSections/SectionOneLeftSide";
 import Fetti from "../pics/fetti.png";
+import { Link } from "react-router-dom";
 const Container = styled.div`
   height: 100vh;
   background: #f7fff6;
@@ -73,7 +74,9 @@ function ThankYou() {
         </Text>
         <Text>Thank you!</Text>
         <BTN>
-          <Btn> Go Back Home</Btn>
+          <Link to={"/"}>
+            <Btn> Go Back Home</Btn>
+          </Link>
         </BTN>
       </Wrap>
     </Container>

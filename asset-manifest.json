@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Coaching-Web/static/css/main.8a685450.css",
-    "main.js": "/Coaching-Web/static/js/main.e6b11c18.js",
+    "main.js": "/Coaching-Web/static/js/main.d2b7ef6a.js",
     "static/media/cuppic.png": "/Coaching-Web/static/media/cuppic.d3f511b77fbaea1398f2.png",
     "static/media/LeanOn.png": "/Coaching-Web/static/media/LeanOn.764e5444815fe5fc7ff5.png",
     "static/media/happy-couple-looking-laptop.png": "/Coaching-Web/static/media/happy-couple-looking-laptop.a79fbf628cde578008a3.png",
     "static/media/afro-amercan-cafe.png": "/Coaching-Web/static/media/afro-amercan-cafe.942b72e8ee3bceb3f397.png",
     "index.html": "/Coaching-Web/index.html",
     "main.8a685450.css.map": "/Coaching-Web/static/css/main.8a685450.css.map",
-    "main.e6b11c18.js.map": "/Coaching-Web/static/js/main.e6b11c18.js.map"
+    "main.d2b7ef6a.js.map": "/Coaching-Web/static/js/main.d2b7ef6a.js.map"
   },
   "entrypoints": [
     "static/css/main.8a685450.css",
-    "static/js/main.e6b11c18.js"
+    "static/js/main.d2b7ef6a.js"
   ]
 }

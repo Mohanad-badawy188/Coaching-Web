@@ -49,9 +49,7 @@ const router = createBrowserRouter([
     element: <ThankYou />,
   },
   
-], {
-  basename: "/app",
-});
+]);
 
 
 function Router() {

@@ -14,6 +14,8 @@ import Webinar from "./components/Webinar";
 import Pricing from "./components/Pricing";
 import ThankYou from "./components/ThankYou";
 const router = createBrowserRouter([
+
+
   {
     path: "/",
     element: <Home />,
@@ -46,9 +48,14 @@ const router = createBrowserRouter([
     path: "/ThankYou",
     element: <ThankYou />,
   },
-]);
+  
+], {
+  basename: "/app",
+});
+
 
 function Router() {
+  
   return <RouterProvider router={router} />;
 }
 export default Router;

@@ -8,13 +8,13 @@ import {
   Routes,
   HashRouter,
 } from "react-router-dom";
-import About from "./components/About";
-import Home from "./components/Home";
-import Contact from "./components/Contact";
-import Services from "./components/Services";
-import Webinar from "./components/Webinar";
-import Pricing from "./components/Pricing";
-import ThankYou from "./components/ThankYou";
+import About from "./About";
+import Home from "./Home";
+import Contact from "./Contact";
+import Services from "./Services";
+import Webinar from "./Webinar";
+import Pricing from "./Pricing";
+import ThankYou from "./ThankYou";
 // const router = createBrowserRouter([
 
 //   {
@@ -66,7 +66,6 @@ import ThankYou from "./components/ThankYou";
 function Router() {
   return (
     <div>
-
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -76,7 +75,6 @@ function Router() {
         <Route path="/ThankYou" element={<ThankYou />} />
         <Route path="/services" element={<Services />} />
       </Routes>
-    
     </div>
   );
 }

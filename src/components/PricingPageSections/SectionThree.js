@@ -5,8 +5,14 @@ import { Btn } from "../Header";
 const Container = styled.div`
   height: 1100px;
 
+  @media (max-width: 1000px) {
+    height: 1450px;
+  }
   @media (max-width: 750px) {
-    height: 1400px;
+    height: 1600px;
+  }
+  @media (max-width: 450px) {
+    height: 2000px;
   }
 `;
 
@@ -21,6 +27,11 @@ export const Header = styled.div`
   text-align: center;
 
   color: #000033;
+  @media (max-width: 1000px) {
+width: 70%;
+margin-bottom: 300px;
+
+  }
 `;
 const Text = styled.div`
   font-family: "Ubuntu";
@@ -34,14 +45,18 @@ const Text = styled.div`
   justify-content: center;
 
   color: #000033;
+  @media (max-width: 1000px) {
+margin-bottom: 200px;
+
+  }
 `;
 export const Items = styled.div`
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: space-around;
   height: 500px;
   margin-top: 100px;
+
 `;
 export const Item = styled.div`
   font-family: "Ubuntu";
@@ -51,23 +66,37 @@ export const Item = styled.div`
   line-height: 30px;
   width: 40%;
   margin: 0px auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
   color: #000033;
   @media (max-width: 1000px) {
     width: 60%;
+  margin-top: 50px;
+
   }
 
   @media (max-width: 600px) {
     width: 90%;
   }
+
 `;
 export const Icon = styled.img`
   margin-right: 20px;
 `;
 export const BTN = styled.div`
-  margin-top: 60px;
+  margin-top: 100px;
   text-align: center;
+  @media (max-width: 1000px) {
+  margin-top: 220px;
+
+  }
+  @media (max-width: 450px) {
+
+  margin-top: 350px;
+
+  }
 `;
 
 function SectionThree() {

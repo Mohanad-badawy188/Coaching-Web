@@ -11,7 +11,10 @@ export const Cart = styled.div`
   box-shadow: 0px 10px 25px rgba(0, 0, 51, 0.08);
   border-radius: 20px;
   position: relative;
-
+  @media (max-width: 480px) {
+    width: 90%;
+    margin-bottom: 20px;
+  }
   display: flex;
   flex-direction: column;
   padding: 50px 40px;
@@ -37,7 +40,7 @@ export const CartHeading = styled.div`
   height: 30px;
   @media (max-width: 480px) {
     width: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   font-family: "Ubuntu";
   font-style: normal;
@@ -75,6 +78,7 @@ export const CartText = styled.div`
 `;
 const CartBtn = styled.div`
   margin-top: 50px;
+  
 `;
 
 function SectionThreeProps(props) {

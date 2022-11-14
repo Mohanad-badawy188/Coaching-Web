@@ -69,6 +69,10 @@ const ItemText = styled.div`
   text-align: start;
   color: #000033;
   width: 70%;
+  @media (max-width: 415px) {
+  margin-left: 50px;
+ }
+  
 `;
 const Icon = styled.img`
   position: absolute;

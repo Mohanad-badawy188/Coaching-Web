@@ -46,6 +46,9 @@ const Note = styled.textarea`
   border-radius: 17.3445px;
   padding: 30px 30px;
   border: none;
+  @media (max-width: 650px) {
+width: 60%;
+  }
   ::placeholder {
     height: 27px;
 
@@ -86,7 +89,7 @@ function SectionOne() {
           />
         </FormItem>
         <FormItem>
-          <Btn style={{ width: "450px" }}>Send</Btn>{" "}
+          <Btn style={{ width: "60%" }}>Send</Btn>{" "}
         </FormItem>
       </Form>
     </Container>

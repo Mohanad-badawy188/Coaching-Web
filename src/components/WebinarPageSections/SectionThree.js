@@ -8,12 +8,20 @@ import { Btn } from "../Header";
 
 const Container = styled.div`
   height: 600px;
+  @media (max-width: 700px) {
+height: 1200px;
+  }
 `;
 const Wrap = styled.div`
   height: 400px;
   margin: 0px auto;
   justify-content: space-around;
   display: flex;
+  @media (max-width: 700px) {
+    flex-direction: column;
+
+    height: 100%;
+  }
 `;
 const Item = styled.div`
   display: flex;

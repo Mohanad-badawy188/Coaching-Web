@@ -7,22 +7,10 @@ export const LeftSide = styled.div`
   flex-direction: column;
   justify-content: center;
   @media (max-width: 1200px) {
-    align-items: center;
     margin-bottom: 120px;
-    align-items: center;
-  }
-  @media (max-width: 750px) {
-    margin-bottom: 180px;
-    align-items: center;
   }
 `;
 export const Heading = styled.div`
-  @media (max-width: 750px) {
-    margin-left: auto;
-    margin-right: auto;
-    width: 430px;
-    margin-bottom: 60px;
-  }
   @media (max-width: 1200px) {
     margin-left: auto;
     margin-right: auto;
@@ -34,23 +22,51 @@ export const Heading = styled.div`
   font-size: 50px;
   line-height: 65px;
   color: #000033;
-`;
-
-export const Text = styled.div`
-  @media (max-width: 750px) {
+  flex-wrap: wrap;
+  @media (max-width: 900px) {
     margin-left: auto;
     margin-right: auto;
     width: 430px;
-    height: 23px;
-    margin-top: 30px;
     margin-bottom: 60px;
+    text-align: center;
   }
+  @media (max-width: 600px) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+  }
+`;
+
+export const Text = styled.div`
+  @media (max-width: 1200px) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  @media (max-width: 900px) {
+    width: 430px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  @media (max-width: 600px) {
+    width: 200px;
+    margin-bottom: 150px;
+    text-align: center;
+  }
+
+  display: flex;
+  flex-wrap: wrap;
   width: 625px;
   height: 52px;
   margin: 35px 0px;
 
   font-family: "Ubuntu";
-  font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 26px;
@@ -84,6 +100,24 @@ export const Btn = styled.button`
 
     border: 2px solid #029837;
   }
+  @media (max-width: 800px) {
+    margin-top: 30px;
+
+  }
+  @media (max-width: 600px) {
+    margin-top: 100px;
+  }
+`;
+const BTN = styled.div`
+  text-align: center;
+  @media (max-width: 750px) {
+    width: 430px;
+  }
+  @media (max-width: 600px) {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 `;
 function SectionOneLeftSide() {
   return (
@@ -94,7 +128,9 @@ function SectionOneLeftSide() {
         consectetur justo quis euismod vehicula. Quisque diam dui, imperdiet et
         hendrerit in, accumsan tempus erat.
       </Text>
-      <Btn>Book Now</Btn>
+      <BTN>
+        <Btn>Book Now</Btn>
+      </BTN>
     </LeftSide>
   );
 }

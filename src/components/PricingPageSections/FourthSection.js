@@ -13,6 +13,9 @@ const Container = styled.div`
   @media (max-width: 1200px) {
     height: 1400px;
   }
+  @media (max-width: 600px) {
+    height: 1800px;
+  }
 `;
 function FourthSection() {
   return (
@@ -24,22 +27,24 @@ function FourthSection() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
             consectetur justo quis euismod vehicula. Quisque diam dui, imperdiet
             et hendrerit in, accumsan tempus erat.{" "}
-          </Text>
-          <Text>
+            <br/>
+          <br/>
+          <br/>
+            Nullam ornare blandit urna, eu pulvinar elit faucibus eget. Sed
+            justo mauris, ultricies eu urna at, gravida commodo mauris. Quisque
+            ac felis ac sapien dictum gravida aliquet ac purus. Donec sit amet
+            ex vel ex sollicitudin posuere at et metus. Duis sodales ligula
+            nisi, molestie lacinia ex rhoncus vel.
+          <br/>
+          <br/>
+          <br/>
             {" "}
             Nullam ornare blandit urna, eu pulvinar elit faucibus eget. Sed
             justo mauris, ultricies eu urna at, gravida commodo mauris. Quisque
             ac felis ac sapien dictum gravida aliquet ac purus. Donec sit amet
             ex vel ex sollicitudin posuere at et metus. Duis sodales ligula
             nisi, molestie lacinia ex rhoncus vel.
-          </Text>
-          <Text>
-            {" "}
-            Nullam ornare blandit urna, eu pulvinar elit faucibus eget. Sed
-            justo mauris, ultricies eu urna at, gravida commodo mauris. Quisque
-            ac felis ac sapien dictum gravida aliquet ac purus. Donec sit amet
-            ex vel ex sollicitudin posuere at et metus. Duis sodales ligula
-            nisi, molestie lacinia ex rhoncus vel.
+            
           </Text>
         </LeftSide>
         <RightSide>

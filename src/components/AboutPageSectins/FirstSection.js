@@ -10,6 +10,9 @@ const Container = styled.div`
   @media (max-width: 1200px) {
     height: 1400px;
   }
+  @media (max-width: 650px) {
+    height: 1700px;
+  }
 `;
 export const Wrap = styled.div`
   display: flex;
@@ -31,9 +34,16 @@ export const LeftSide = styled.div`
   @media (max-width: 1200px) {
     margin-bottom: 100px;
     height: 700px;
-    justify-content: space-between;
   }
+  @media (max-width: 650px) {
+  margin-bottom: 200px;
+  height: 1000px;
+  justify-content: start;
+  }
+
 `;
+
+
 export const Dots = styled.img`
   position: absolute;
   top: 10px;
@@ -41,6 +51,9 @@ export const Dots = styled.img`
   z-index: 0;
   @media (max-width: 1200px) {
     top: 20px;
+  }
+  @media (max-width: 500px) {
+display: none;
   }
 `;
 function FirstSection() {
@@ -53,16 +66,20 @@ function FirstSection() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
             consectetur justo quis euismod vehicula. Quisque diam dui, imperdiet
             et hendrerit in, accumsan tempus erat.
-          </Text>
-          <Text>
+      <br/>
+      <br/>
+      <br/>
             Nullam ornare blandit urna, eu pulvinar elit faucibus eget. Sed
             justo mauris, ultricies eu urna at, gravida commodo mauris. Quisque
             ac felis ac sapien dictum gravida aliquet ac purus. Donec sit amet
             ex vel ex sollicitudin posuere at et metus. Duis sodales ligula
             nisi, molestie lacinia ex rhoncus vel.
-          </Text>
-          <Text>
-            Nullam ornare blandit urna, eu pulvinar elit faucibus eget. Sed
+
+<br/>
+<br/>
+<br/>
+<br/>
+         Nullam ornare blandit urna, eu pulvinar elit faucibus eget. Sed
             justo mauris, ultricies eu urna at, gravida commodo mauris. Quisque
             ac felis ac sapien dictum gravida aliquet ac purus. Donec sit amet
             ex vel ex sollicitudin posuere at et metus. Duis sodales ligula

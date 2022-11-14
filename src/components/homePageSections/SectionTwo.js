@@ -16,7 +16,11 @@ export const Container = styled.div`
   }
   @media (max-width: 750px) {
     display: block;
-    height: 1700px;
+    height: 1500px;
+  }
+  @media (max-width: 500px) {
+    display: block;
+    height: 1200px;
   }
 `;
 export const LeftSide = styled.div`
@@ -33,12 +37,28 @@ export const SectionTwoPic = styled.img`
   height: 537px;
   margin-top: 200px;
   margin-left: 120px;
+  @media (max-width: 750px) {
+    height: 400px;
+    width: 400px;
+  }
+  @media (max-width: 500px) {
+    height: 200px;
+    width: 200px;
+  }
 `;
 export const Dots = styled.img`
   position: absolute;
   top: 200px;
   left: 125px;
   z-index: 0;
+  @media (max-width: 1200px) {
+    top: 205px;
+  }
+
+  @media (max-width: 500px) {
+    height: 150px;
+    width: 150px;
+  }
 `;
 export const RightSide = styled.div`
   display: flex;

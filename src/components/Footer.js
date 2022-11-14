@@ -29,6 +29,7 @@ const FirstPart = styled.div`
   flex-direction: column;
   align-items: center;
   position: relative;
+
 `;
 const Logo = styled.img`
   width: 200px;
@@ -48,6 +49,11 @@ const Location = styled.div`
   }
   @media (max-width: 750px) {
     bottom: -100px;
+  }
+  @media (max-width: 500px) {
+  margin-bottom: 50px;
+  width: 60%;
+  right: 50px;
   }
 `;
 const SecondPart = styled.div`
@@ -96,7 +102,7 @@ const ThirdPart = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 70px;
-
+text-align: center;
   flex-wrap: wrap;
 `;
 const Header = styled.div`

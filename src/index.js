@@ -4,7 +4,7 @@ import { StrictMode } from "react";
 
 import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 import App from "./components/App";
-import "./index.css";
+import "./components/index.css";
 const container = document.getElementById("root");
 const root = createRoot(container);
 root.render(

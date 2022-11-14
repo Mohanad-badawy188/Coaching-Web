@@ -12,12 +12,22 @@ export const RightSide = styled.div`
   margin-bottom: 25px;
 `;
 export const CupPic = styled.img`
+margin-top: 20px;
   position: relative;
   display: flex;
   flex-wrap: wrap;
   z-index: 1;
   filter: drop-shadow(0px 11.1346px 18.5576px rgba(2, 147, 52, 0.05));
   border-radius: 213.531px 0px 218.785px 216px;
+
+  @media (max-width: 750px) {
+    height: 400px;
+    width: 400px;
+  }
+  @media (max-width: 500px) {
+    height: 200px;
+    width: 200px;
+  }
 `;
 export const Dots = styled.img`
   position: absolute;
@@ -26,6 +36,11 @@ export const Dots = styled.img`
   z-index: -1;
   @media (max-width: 1200px) {
     top: 20px;
+  }
+
+  @media (max-width: 500px) {
+    height: 150px;
+    width: 150px;
   }
 `;
 const SucResult = styled.div`
@@ -41,6 +56,17 @@ const SucResult = styled.div`
   left: -20px;
   align-items: center;
   justify-content: space-around;
+  z-index: 3;
+
+  @media (max-width: 750px) {
+    top: 335px;
+  left: -20px;
+  }
+  @media (max-width: 500px) {
+    top: 170px;
+    left: -80px;
+
+  }
 `;
 const LeftSideNote = styled.div`
   background-color: white;

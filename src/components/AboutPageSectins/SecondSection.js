@@ -6,7 +6,7 @@ export const Container = styled.div`
   @media (max-width: 800px) {
     height: 700px;
   }
-  @media (max-width: 430px) {
+  @media (max-width: 465px) {
     height: 900px;
   }
 `;

@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  Container,
+
   Dots,
   LeftSide,
   RightSide,
@@ -10,7 +10,27 @@ import {
 import LeanOn from "../../pics/LeanOn.png";
 import Dot from "../../pics/dots.png";
 import { Heading } from "../homePageSections/SectionOneLeftSide";
+import styled from "styled-components";
+ 
+export const Container = styled.div`
+  height: 798px;
+  background: #f7fff6;
+  display: flex;
 
+  @media (max-width: 1200px) {
+    display: block;
+    height: 1400px;
+  }
+  @media (max-width: 900px) {
+    display: block;
+    height: 1600px;
+  }
+  @media (max-width: 750px) {
+    display: block;
+    height: 1500px;
+  }
+
+  ` 
 function SectionTwo() {
   return (
     <Container>

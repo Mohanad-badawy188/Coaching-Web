@@ -8,8 +8,11 @@ const Container = styled.div`
   height: 1000px;
   background: #f7fff6;
   padding-top: 50px;
+  @media (max-width: 1000px) {
+    height: 1200px;
+  }
   @media (max-width: 750px) {
-    height: 1400px;
+    height: 1500px;
   }
 `;
 

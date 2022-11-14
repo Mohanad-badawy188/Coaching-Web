@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import { Container, Wrap } from "../Home";
+import {  Wrap } from "../Home";
 import {
   Heading,
   LeftSide,
-  Text,
+
 } from "../homePageSections/SectionOneLeftSide";
 import {
   CupPic,
@@ -13,6 +13,47 @@ import {
 } from "../homePageSections/SectionOneRightSide";
 import Img from "../../pics/happy-couple-looking-laptop.png";
 import Dot from "../../pics/dots.png";
+const Container = styled.div`
+height: 800px;
+@media (max-width: 1200px) {
+    height: 1200px;
+  }
+@media (max-width: 600px) {
+    height: 1400px;
+  }
+`
+const Text = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  width: 625px;
+  height: 52px;
+  margin: 35px 0px;
+
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #000033;
+  @media (max-width: 1200px) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  @media (max-width: 900px) {
+    width: 430px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  @media (max-width: 600px) {
+    width: 200px;
+    padding-bottom: 320px;
+    text-align: center;
+  }
+
+  `
 
 function FirstSection() {
   return (

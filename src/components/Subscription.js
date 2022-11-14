@@ -6,7 +6,7 @@ const Container = styled.div`
   height: 511px;
 
   @media (max-width: 800px) {
-    height: 800px;
+    height:900px;
   }
 `;
 
@@ -27,6 +27,10 @@ const SubscribeContainer = styled.div`
   margin-top: 100px;
   align-items: center;
   justify-content: center;
+  @media (max-width: 800px) {
+display: inline-block;
+text-align: center;
+  }
 `;
 export const Input = styled.input`
   padding: 13.676px 30px;
@@ -38,6 +42,9 @@ export const Input = styled.input`
   height: 27px;
 
   color: rgba(107, 114, 128, 0.4);
+  @media (max-width: 600px) {
+width: 50%;
+  }
   ::placeholder {
     height: 27px;
 

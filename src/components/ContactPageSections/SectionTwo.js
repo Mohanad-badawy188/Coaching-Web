@@ -46,6 +46,9 @@ const Icon = styled.img`
 const IconRight = styled.img`
   position: absolute;
   top: 5px;
+  @media (max-width: 500px) {
+   left: -20px;
+  }
 `;
 function SectionTwo() {
   return (

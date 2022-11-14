@@ -11,11 +11,12 @@ const Container = styled.div`
   height: 1400px;
 
   @media (max-width: 1150px) {
-    height: 2000px;
+    height: 2300px;
   }
   @media (max-width: 750px) {
-    height: 2900px;
+    height: 3200px;
   }
+
 `;
 const CartContainer = styled.div`
   flex-wrap: wrap;
